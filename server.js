@@ -47,7 +47,7 @@ server.addService(customersProto.CustomerService.service, {
         } else {
             callback({
                 code: grpc.status.NOT_FOUND,
-                details: "Not found"
+                details: "Not found !"
             });
         }
     },
